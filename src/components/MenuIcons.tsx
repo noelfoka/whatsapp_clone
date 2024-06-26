@@ -1,6 +1,11 @@
+import { MdChat } from "react-icons/md";
+import IconButton from "./common/IconButton";
+
 const MenuIcons = () => {
   return ( 
-    <div>Menu Icons</div>
+    <div>
+      <IconButton icon={<MdChat />} />
+    </div>
    );
 }
  
